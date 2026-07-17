@@ -55,3 +55,165 @@ button{
     color:red;
     font-style:italic;
 }
+body{
+
+    font-family:Arial, sans-serif;
+
+    background:#f2f2f2;
+
+    margin:20px;
+
+}
+
+/* ID Selector */
+
+#main-heading{
+
+    color:darkblue;
+
+}
+
+/* Class Selector */
+
+.description{
+
+    color:gray;
+
+}
+
+/* Form Section */
+
+.add-expense-section{
+
+    background:white;
+
+    padding:20px;
+
+    margin-bottom:30px;
+
+    border-radius:8px;
+
+}
+
+input,
+select{
+
+    width:100%;
+
+    padding:10px;
+
+    margin-bottom:15px;
+
+}
+
+/* Button */
+
+button{
+
+    background:green;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    cursor:pointer;
+
+}
+
+button:hover{
+
+    background:darkgreen;
+
+}
+
+/* Table */
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+th,
+td{
+
+    border:1px solid #ccc;
+
+    padding:12px;
+
+}
+
+th{
+
+    background:darkblue;
+
+    color:white;
+
+}
+
+tr:nth-child(even){
+
+    background:#eeeeee;
+
+}
+
+tr:hover{
+
+    background:#d6f5d6;
+
+}
+
+/* Advanced CSS Selectors */
+
+/* Descendant Selector */
+
+.expenses-section td{
+
+    font-size:16px;
+
+}
+
+/* Direct Child Selector */
+
+.add-expense-section > form{
+
+    margin-top:15px;
+
+}
+
+/* Negation Selector */
+
+input:not([type="button"]){
+
+    border:1px solid gray;
+
+}
+
+/* Focus Selector */
+
+input:focus,
+select:focus{
+
+    border:2px solid blue;
+
+    outline:none;
+
+}
+
+/* Details */
+
+details{
+
+    margin-top:20px;
+
+    margin-bottom:20px;
+
+    background:white;
+
+    padding:15px;
+
+}
