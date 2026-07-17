@@ -1,0 +1,319 @@
+/* ===========================
+   COLOR PALETTE
+=========================== */
+
+:root{
+
+--primary:#1E3A8A;
+
+--secondary:#2563EB;
+
+--accent:#10B981;
+
+--background:#F3F6FB;
+
+--card:#FFFFFF;
+
+--text:#374151;
+
+--table-even:#F8FAFC;
+
+--table-hover:#D1FAE5;
+
+--border:#D1D5DB;
+
+}
+
+/* ===========================
+   GENERAL STYLING
+=========================== */
+
+body{
+
+font-family:'Poppins',sans-serif;
+
+background:var(--background);
+
+color:var(--text);
+
+margin:30px;
+
+line-height:1.6;
+
+}
+
+/* ===========================
+   HEADER CARD
+=========================== */
+
+header{
+
+background:var(--card);
+
+padding:30px;
+
+margin-bottom:30px;
+
+border:2px solid var(--border);
+
+border-radius:15px;
+
+text-align:center;
+
+box-shadow:0 3px 10px rgba(0,0,0,.1);
+
+}
+
+#main-heading{
+
+font-family:'Merriweather',serif;
+
+font-size:38px;
+
+color:var(--primary);
+
+margin-bottom:10px;
+
+}
+
+.description{
+
+font-size:18px;
+
+color:#666;
+
+}
+
+/* ===========================
+   CARD DESIGN
+=========================== */
+
+.add-expense-section,
+
+.expenses-section{
+
+background:var(--card);
+
+padding:25px;
+
+margin-bottom:30px;
+
+border:2px solid var(--border);
+
+border-radius:15px;
+
+box-shadow:0 3px 10px rgba(0,0,0,.08);
+
+}
+
+h2{
+
+font-family:'Merriweather',serif;
+
+color:var(--secondary);
+
+margin-bottom:20px;
+
+}
+
+/* ===========================
+   FORM
+=========================== */
+
+label{
+
+font-weight:600;
+
+display:block;
+
+margin-top:15px;
+
+margin-bottom:8px;
+
+}
+
+input,
+
+select{
+
+width:100%;
+
+padding:12px;
+
+border:1px solid var(--border);
+
+border-radius:8px;
+
+font-size:16px;
+
+margin-bottom:15px;
+
+box-sizing:border-box;
+
+font-family:'Poppins',sans-serif;
+
+}
+
+input:focus,
+
+select:focus{
+
+border:2px solid var(--secondary);
+
+outline:none;
+
+}
+
+/* ===========================
+   BUTTON
+=========================== */
+
+button{
+
+background:var(--accent);
+
+color:white;
+
+padding:12px 25px;
+
+border:none;
+
+border-radius:8px;
+
+font-size:16px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+button:hover{
+
+background:#059669;
+
+}
+
+/* ===========================
+   TABLE
+=========================== */
+
+table{
+
+width:100%;
+
+border-collapse:collapse;
+
+margin-top:20px;
+
+}
+
+th{
+
+background:var(--primary);
+
+color:white;
+
+padding:15px;
+
+text-align:left;
+
+}
+
+td{
+
+padding:15px;
+
+border:1px solid var(--border);
+
+}
+
+tbody tr:nth-child(even){
+
+background:var(--table-even);
+
+}
+
+tbody tr:hover{
+
+background:var(--table-hover);
+
+}
+
+/* ===========================
+   IMAGE
+=========================== */
+
+header img{
+
+margin-bottom:15px;
+
+}
+
+/* ===========================
+   DETAILS
+=========================== */
+
+details{
+
+background:white;
+
+padding:20px;
+
+border:1px solid var(--border);
+
+border-radius:10px;
+
+margin-bottom:30px;
+
+}
+
+summary{
+
+font-weight:bold;
+
+cursor:pointer;
+
+color:var(--secondary);
+
+}
+
+/* ===========================
+   VIDEO
+=========================== */
+
+iframe{
+
+display:block;
+
+margin:20px auto;
+
+border-radius:12px;
+
+max-width:100%;
+
+}
+
+/* ===========================
+   ADVANCED SELECTORS
+=========================== */
+
+.expenses-section td{
+
+font-size:15px;
+
+}
+
+.add-expense-section>form{
+
+margin-top:20px;
+
+}
+
+input:not([type="button"]){
+
+background:white;
+
+}
