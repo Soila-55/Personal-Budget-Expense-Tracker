@@ -1,0 +1,57 @@
+/* Element Selector */
+body{
+    font-family: Arial, sans-serif;
+    background-color:#f4f4f4;
+    margin:20px;
+}
+
+/* ID Selector */
+#main-heading{
+    color:darkblue;
+    text-align:center;
+}
+
+/* Class Selector */
+.description{
+    text-align:center;
+    color:gray;
+    margin-bottom:30px;
+}
+
+/* Class Selector */
+.expense-section{
+    background-color:#dff6ff;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+/* Element Selector */
+input{
+    display:block;
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+/* Element Selector */
+button{
+    padding:10px 20px;
+    background-color:green;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+/* Class Selector */
+.expenses-list{
+    background-color:#fff3cd;
+    padding:20px;
+    border-radius:10px;
+}
+
+/* ID Selector */
+#placeholder{
+    color:red;
+    font-style:italic;
+}
